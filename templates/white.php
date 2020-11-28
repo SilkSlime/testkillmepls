@@ -1,0 +1,26 @@
+<?php
+echo <<<HEREDOC
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .keker {
+            display: inline-block;
+            height: 30px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>$sitename</h3>
+    <div class="keker">dddd</div>
+    <div class="keker">gggg</div>
+    <div class="keker">jjjj</div>
+    <img src="$imgsrc">
+</body>
+</html>
+HEREDOC;
+?>
